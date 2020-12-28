@@ -1,0 +1,78 @@
+<mxfile host="app.diagrams.net" modified="2020-12-28T09:42:40.531Z" agent="5.0 (Windows)" etag="BsgfvtiQGv8fWCmw3HWX" version="14.1.2" type="github">
+  <diagram id="YZ6jvxbfIaF8tCP3rvxw" name="Page-1">
+    <mxGraphModel dx="868" dy="479" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="PBerUUNHaJJKXSI-LX2p-1" value="&lt;h3&gt;2. Посчитать четные и нечетные цифры введенного натурального числа. &#xa;Например, если введено число 34560, в нем 3 четные цифры (4, 6 и 0) и 2 &#xa;нечетные (3 и 5).&lt;/h3&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" width="350" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="PBerUUNHaJJKXSI-LX2p-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="PBerUUNHaJJKXSI-LX2p-2" target="PBerUUNHaJJKXSI-LX2p-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PBerUUNHaJJKXSI-LX2p-2" value="Начало алгоритма" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="100" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PBerUUNHaJJKXSI-LX2p-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="PBerUUNHaJJKXSI-LX2p-3" target="PBerUUNHaJJKXSI-LX2p-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PBerUUNHaJJKXSI-LX2p-3" value="&lt;div&gt;ввод&lt;/div&gt;&lt;div&gt;num&lt;br&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="180" width="190" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="PBerUUNHaJJKXSI-LX2p-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="PBerUUNHaJJKXSI-LX2p-8" target="PBerUUNHaJJKXSI-LX2p-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PBerUUNHaJJKXSI-LX2p-8" value="for i in num" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="335" y="330" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PBerUUNHaJJKXSI-LX2p-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="PBerUUNHaJJKXSI-LX2p-10" target="PBerUUNHaJJKXSI-LX2p-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PBerUUNHaJJKXSI-LX2p-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="PBerUUNHaJJKXSI-LX2p-10" target="PBerUUNHaJJKXSI-LX2p-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PBerUUNHaJJKXSI-LX2p-10" value="int (i) % 2 &amp;gt; 0" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="460" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PBerUUNHaJJKXSI-LX2p-11" value="Нет" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="460" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="PBerUUNHaJJKXSI-LX2p-12" value="Да" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="470" y="460" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="PBerUUNHaJJKXSI-LX2p-15" value="odd_num.append(i)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="540" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="PBerUUNHaJJKXSI-LX2p-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="PBerUUNHaJJKXSI-LX2p-16" target="PBerUUNHaJJKXSI-LX2p-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PBerUUNHaJJKXSI-LX2p-16" value="&lt;div&gt;even_num = [ ]&lt;/div&gt;&lt;div&gt;odd_num = [ ]&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="335" y="257" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="PBerUUNHaJJKXSI-LX2p-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="PBerUUNHaJJKXSI-LX2p-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="430" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PBerUUNHaJJKXSI-LX2p-20" value="odd_num.append(i)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="540" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="PBerUUNHaJJKXSI-LX2p-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="PBerUUNHaJJKXSI-LX2p-21" target="PBerUUNHaJJKXSI-LX2p-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PBerUUNHaJJKXSI-LX2p-21" value="even_num.append(i)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="540" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="PBerUUNHaJJKXSI-LX2p-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="PBerUUNHaJJKXSI-LX2p-25" target="PBerUUNHaJJKXSI-LX2p-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PBerUUNHaJJKXSI-LX2p-25" value="&lt;div&gt;вывод&lt;/div&gt;&lt;div&gt;return count (even_num)&lt;/div&gt;&lt;div&gt;return count (odd_num)&lt;br&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="335" y="640" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PBerUUNHaJJKXSI-LX2p-28" value="Конец алгоритма" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="335" y="770" width="190" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
